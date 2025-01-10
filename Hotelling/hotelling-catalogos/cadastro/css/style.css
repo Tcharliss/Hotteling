@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header img{
+    width: 40px;
+    cursor: pointer;
+}
+
+header button{
+    border: none;
+    background: none;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url(../../imagens/cadastro/fundo.jpg);
+    background-size: cover;
+}
+
+section{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+
+}
+
+.formulario{
+    background: #82BA51;
+    width: 400px;
+    height: 524px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 2px 4px 3px black ;
+    
+}
+
+.formulario input{
+    padding: 7px;
+    width: 92%;
+    height: 36px;
+    line-height: normal;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.usuarios input{
+    padding: 10px;
+    width: 160px;
+}
+
+.entrar button{
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    display: grid;
+    padding: 10px 140px;
+    border-radius: 15px;
+    margin: auto;
+    background: #82BA51;
+    cursor: pointer;
+}
+
+.entrar button:hover{
+    background-color: #5a8336de;
+}
+
+.formulario input:focus{
+    border-color: #1f22bd;
+    outline: none;
+}
+
+.icones{
+    display: grid;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+article{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app li img{
+    width: 20px;
+}
+
+.app button{
+    text-align: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+.botao1{
+    border: 2px solid red;
+}
+
+
+.botao2{
+    border: 2px solid black;
+}

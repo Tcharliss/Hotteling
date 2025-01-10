@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login - Hotelling </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="js/script.js"></script>
+    
+</head>
+<body>
+    <a href="../home/home.html"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16" style="margin: 10px;">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg></a>
+    
+    </header>
+        <main>
+            <div class="tudo">
+                <section>
+                    <h1> Login </h1> <br>
+                        <h4>Seja Bem-Vindo ao Hotelling!</h4>
+                </section> <br>
+                <div class="icones">
+                    <form action="#"> 
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required> <br>
+
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
+
+                        <label for="Confirmar Senha">Confirme a senha:</label>
+                        <input type="password" id="senhaconfirma" name="senha" placeholder="Digite sua Senha novamente" required>
+
+                        <div class="botao">
+                        <button onclick="receber()"> Entrar </button>
+                        </div>
+                        <div class="alternativa">
+                            <p>Não possui uma conta? <a href="../cadastro/index.html">clique aqui</a> para se cadastrar</p>
+                        </div>
+                    </div>
+                    </form>
+                <section class="app">
+                    <button type="submit"> 
+                        <ul>
+                            <li><img width="20px" src="../imagens/login/google.png" alt=""></li>
+                            <li> Conectar-se com Google</li>
+                        </ul>
+                    </button>
+                    <button type="submit"> 
+                        <ul>
+                            <li><img width="20px" src="../imagens/login/apple.png" alt=""></li>
+                            <li>Conectar-se com Apple</li>
+                        </ul>
+                    </button>
+                    </section>
+            </div>
+    </main>
+</body>
+</html>

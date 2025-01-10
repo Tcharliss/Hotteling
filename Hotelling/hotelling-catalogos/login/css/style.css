@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.botao img{
+    margin-left: 20px;
+}
+
+body{
+    background-image: url(../../imagens/login/fundo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ section{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+ }
+
+ section h1{
+    font-size: 2em;
+ }
+
+ .tudo{
+    background-color: #4087F9; 
+    width: 400px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+    
+    padding: 10px;
+    box-shadow: 3px 2px 4px 3px black ;
+}
+
+.icones{
+    background-color: white;
+    display: grid;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.icones input{
+    padding: 7px;
+    width: 97%;
+    height: 36px;
+    line-height: normal;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.alternativa{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.alternativa a{
+    color: red;
+}
+
+.botao button{
+    background: #4087F9;
+    font-size: 18px;
+    border: none;
+    color: white;
+    display: grid;
+    padding: 10px 140px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.app button{
+    background: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 8px;
+
+}
+
+.app ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+ 

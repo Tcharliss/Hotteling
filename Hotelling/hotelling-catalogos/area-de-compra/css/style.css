@@ -1,0 +1,461 @@
+/*----  Op*ões gerais da estilização*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/*---- header ---- */
+.fundo{
+    background-image: url(../../imagens/home/home.jpg);
+    background-size: cover;
+    height: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo{
+    color: white;
+}
+.menusuperior a{
+    color: white;
+}
+
+.menusuperior ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menusuperior ul li{
+    margin: 15px 60px 10px;
+    margin-top: 20px;
+
+}
+
+
+.borda{
+    background: white;
+    padding: 50px;
+}
+
+.borda a{
+    display: flex;
+    color: black;
+}
+
+.borda1 a{
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.borda2 a{
+    color: black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menuinferior ul{
+    display: flex;
+    margin-left: 100px;
+    text-decoration: black;
+}
+
+.menuinferior ul li{
+    margin-top: 40px;
+    margin-right: 80px;
+    margin: 30px;
+    color: white;
+}
+
+.menuinferior a{
+    color: white;
+}
+
+.pesquisa button{
+    display: inline-flexbox;
+    justify-content: space-between;
+    margin-top: 1px;
+    width: 200px;
+    height: 50px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    border: 2px solid #0050FE;
+    border-radius: 5px;
+    background: white;
+
+}
+
+#botao{
+    background-color: #0050FE;
+    color: white;
+}
+
+/* ---- header-final ---- */
+/* ---- Main ----*/
+    /*---- contéudo da venda ----*/
+
+.container{
+    margin-top: 50px;
+}
+
+.conteudolateral{
+    margin: 0px;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding: 0px;
+    background: rgb(255, 252, 248);
+    width: 500px;
+    float: right;
+    font-size: 25px;
+    
+}
+
+.conteudovenda{
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin: 40px 6px;
+    margin-left: 90px;
+    float: left;
+}
+
+.comentarios{
+    border: 1px solid gray;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-right: 2px;
+    
+}
+
+.alugar{
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: #0050FE;
+    border-radius: 10px;
+    padding: 10px 35px;
+    margin-left: 15px;
+    
+}
+
+.preco{
+    font-size: 20px;
+    display: flex;
+}
+
+.imagem{
+    clear: both;
+    margin: 80px;
+}
+
+.imagem img{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.imagem p{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Cor preta com 50% de opacidade */
+        url('imagem/image\ 29.png');
+}
+
+.opcoes{
+    display: flex;
+    align-content: space-around;
+}
+
+
+.opcoes ul {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    list-style: none;
+    text-align: center; 
+    margin-left: 50px;
+}
+
+
+.opcoes ul li {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    border: 2px solid blueviolet; 
+    padding: 10px; 
+    width: calc(25% - 20px); 
+    height: auto; 
+    box-sizing: border-box;
+}
+
+
+.descricao{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.descricao p{
+   margin: 37px;
+    font: 20px sans-serif;
+}
+
+#disp{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 80px;
+}
+
+.disponivel{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    
+}
+
+.disponivel ul li{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    gap: 10px;
+    
+}
+
+.disponivel button{
+    display: inline-flexbox;
+    justify-content: space-between;
+    margin-top: 1px;
+    width: 200px;
+    height: 50px;
+    margin-left: 1px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 2px solid #0050FE;
+    border-radius: 5px;
+    background: #0050FE;
+    color: white;
+
+}
+
+.disponivel ul {
+    display: flex;
+    margin: 0px;
+    margin-left: 300px;
+    margin-right: 80px;
+    padding: 20px;
+    width: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#vintecomer{
+    margin-left: 80px;
+}
+
+.colunona{
+    display: block;
+    margin-left: 80px;
+}
+
+.visitantes{
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    grid-gap: 20px;
+    margin-left: 300px;
+}
+
+.primeiracoluna{
+    background: #0050FE;
+}
+
+
+.primeiracoluna li{
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.segudacoluna {
+    display: grid;
+    background-color: #0050FE;
+    grid-column: 2;
+
+}
+
+.informacao section{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom:40px;
+}
+
+.informacao section h2{
+    margin-bottom:20px;
+}
+
+.proximidades{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.proximo{
+    display: flex;
+    align-content: baseline;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.proximo h2{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.estadia{
+    width: 10rem;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+.cozinhar{
+    width: 10rem;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    
+
+}
+
+.importante{
+    margin: 0px;
+    padding: 1%;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.importante{
+    display: flex;
+}
+
+#importante{
+    margin-left: 8%;
+}
+
+.uniao{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.conteudo{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 60rem;
+    height: 10rem;
+    padding: 10px;
+    margin: auto 20px;
+
+}
+
+.proibido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 18px solid red;
+    border-radius: 5px ;
+    width: 28rem;
+    height: auto;
+    align-content: flex-end;
+    padding: 10px;
+
+}
+
+.tudo{
+   width: 50%;
+   height: 50%;
+}
+
+.item {
+    display: flex;
+    align-items: center;  /* Alinha verticalmente o ícone e o texto */
+    gap: 10px;            /* Adiciona um pequeno espaçamento entre o ícone e o texto */
+}
+
+.regras {
+    margin: 0;
+    padding: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.casa {
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.casadobloco {
+    display: flex;
+}
+
+/*---- conteudo final ----*/
+
+footer{
+    background-image: url(../../imagens/home/home.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    height: 100px;
+}
+
+.somos ul{
+    justify-content: center;
+    display: flex;
+}
+
+.somos li{
+   align-items: center;
+    margin: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
